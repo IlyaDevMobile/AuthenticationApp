@@ -18,7 +18,7 @@ https://github.com/IlyaDevMobile/AuthenticationApp/assets/93551125/7ec0b379-7109
 
 - **Язык программирования**:  Kotlin + XML
 - **Инструменты разработки**: Android Studio
-- **minSdk 24, targetSdk 33**
+- **minSdk 24, targetSdk 34**
 
 
 ### Библиотеки 
