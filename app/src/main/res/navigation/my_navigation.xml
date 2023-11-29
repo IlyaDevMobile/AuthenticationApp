@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.android.authenticationapp.presentation.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_listItemsFragment2"
+            app:destination="@id/listItemsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/listItemsFragment"
+        android:name="com.android.authenticationapp.presentation.listpayment.ListItemsFragment"
+        android:label="fragment_list_items"
+        tools:layout="@layout/fragment_list_items" >
+        <argument
+            android:name="token"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_listItemsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

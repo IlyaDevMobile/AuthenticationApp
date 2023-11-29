@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AuthenticationApp</string>
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="login_in_system">login in system</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title:</string>
+    <string name="amount">Amount:</string>
+    <string name="created">Created:</string>
+</resources>
